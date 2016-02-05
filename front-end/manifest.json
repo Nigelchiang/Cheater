@@ -1,0 +1,59 @@
+{
+  "manifest_version": 2,
+  "name": "Cheater",
+  "description": "机考助手",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_title": "Cheater",
+    "default_icon": {
+      "19": "img/19.png",
+      "38": "img/38.png"
+    },
+    "default_popup": "popup.html"
+  },
+
+  "icons": {
+    "128": "img/128.png",
+    "16": "img/16.png",
+    "19": "img/19.png",
+    "32": "img/32.png",
+    "38": "img/38.png",
+    "48": "img/48.png"
+  },
+
+  "background": {
+    "scripts": [
+      "lib/jquery.js",
+      "background.js"
+    ],
+    "persistent": false
+  },
+
+  "content_scripts": [
+
+    {
+      "all_frames": true,
+      "matches": [
+        "*://*/*"
+      ],
+      "css": [
+        "content.css",
+        "lib/bootstrap-3.3.6/css/bootstrap.min.css"
+      ],
+      "js": [
+        "lib/jquery.js",
+        "content.js"
+      ]
+    }
+  ],
+
+  "permissions": [
+    "http://*.nigel.top/*",
+    "tabs"
+  ],
+
+  "web_accessible_resources": [
+    "img/19.png"
+  ]
+}
