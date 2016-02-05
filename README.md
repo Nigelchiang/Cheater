@@ -5,8 +5,8 @@ Cheater是一个Chrome插件,主要的作用是……用于机考的时候作弊
 # 安装
 1. [下载crx文件](http://5.nigel.top/Cheater.crx)
 2. 打开浏览器的插件管理页
-
  > Chrome在地址栏输入*chrome://extensions*即可
+ 
 3. 将crx文件拖到浏览器的插件管理页面，即可
 
 # 兼容
@@ -14,6 +14,7 @@ Cheater是一个Chrome插件,主要的作用是……用于机考的时候作弊
 
 # 使用
 1. 上传文件
+
 点击插件的图标，选择本地题库文件，点击上传。
  
  > 目前仅支持`HTML`和`JSON`格式，文件大小不要超过2M。
@@ -21,10 +22,11 @@ Cheater是一个Chrome插件,主要的作用是……用于机考的时候作弊
  > 对于Word文档和PDF，建议通过[Online Convert](http://www.online-convert.com)这个网站转换为`HTML`格式再上传。
 
 2. 搜索
+
  上传成功之后，在页面随便选取文字，点击页面上的图标，就会在你上传的题库中搜索该内容，如果找到了匹配，会在页面上显示出来。
 
-代码地址： **https://github.com/Nigelchiang/Cheater**
 # 声明
+##### 代码地址： **https://github.com/Nigelchiang/Cheater**
 代码写得很烂，欢迎各路大神Pull Request，十分感谢。
 
 Ps.这几天被编码和文件格式弄得很头疼，索性就不处理那些格式了，所以这个插件目前只是勉强能用，效果非常糟糕。对于Word或者PDF转成的HTML，我的处理非常死脑筋，能不能搜到文档内容就只能看运气了…
