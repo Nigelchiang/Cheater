@@ -9,11 +9,10 @@ $(()=> {
     });
 
     $('form').submit(() => {
-
         var checkFiles = ()=> {
             var files = $("#file")[0].files;
-            var flag = 0;
 
+            var flag = 0;
             if (files.length !== 0) {
                 for (var i = 0; i < files.length; ++i) {
                     var elem = files[i];
