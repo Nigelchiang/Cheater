@@ -4,10 +4,8 @@
 
 $("body").append($("<div id='c-wrap'><div class='c-icon'></div></div><div class='c-bubble'></div>"));
 
-//1. 打开ftp://mathe.neu.edu.cn 下载浏览器和本插件
-//2. 安装插件
 //记得配置这个地址
-const queryUrl = 'http://127.0.0.1:5000/q'
+let queryUrl = 'http://127.0.0.1:5000/q'
 
 let selection = ''
 //点击图标时这个回调先于图标的回调执行，会将selection设为空

@@ -5,8 +5,8 @@
 $(() => {
     $("#file").change(() => {
         $("button:submit").removeClass("btn-danger").addClass("btn-primary").html("<span class='glyphicon" +
-            " glyphicon-send'></span> 上传");
-    });
+            " glyphicon-send'></span> 上传")
+    })
 
     $('form').submit(() => {
         let checkFiles = () => {
