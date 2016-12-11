@@ -1,4 +1,5 @@
 .idea/
 *.crx
 *.pem
-back-end/
+back-end/old/
+*.idea
