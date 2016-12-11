@@ -1,4 +1,4 @@
-#jh-wrap {
+#c-wrap {
     position: absolute;
     display: none;
     background: rgb(245, 245, 245);
@@ -16,21 +16,20 @@
     border-radius: 5px;
     padding: 3px;
 }
-.jh-icon {
+.c-icon {
     background-image: url("chrome-extension://__MSG_@@extension_id__/img/19.png");
     background-size: 19px;
     height: 19px;
     width: 19px;
 }
-.jh-bubble {
+.c-bubble {
+
     font-size: small;
     max-width: 50%;
     box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px;
     background-color: rgb(255, 255, 255);
     border-image-source: initial;
     border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
     border-image-repeat: initial;
     position: absolute;
     z-index: 1201;
